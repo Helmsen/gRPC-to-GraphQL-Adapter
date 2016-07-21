@@ -37,5 +37,6 @@ ENV API_HOST=CHANGE
 ENV API_PORT=CHANGE
 ENV API_PROTO_PATH=/api/main.proto
 
+VOLUME /api
 EXPOSE 40022
 CMD ["node", "/fapra/graphQlServer.js", "40022"]
